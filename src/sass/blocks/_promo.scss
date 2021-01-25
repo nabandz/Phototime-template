@@ -1,0 +1,30 @@
+.promo {
+    min-height: 745px;
+    padding: 40px 0 26px 0;
+    background: url(../img/home_bg.jpg) center (center/cover) no-repeat;
+    &__wapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__header { 
+        margin-top: 247px;
+        margin-bottom: 13px;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subheader {
+        margin-bottom: 26px;
+        font-size: 16px;
+        font-weight: medium;
+        color: #ffffff;
+    }
+    &__social {
+        margin-top: 222px;
+        img {
+            margin-right: 16px;
+        }
+    }
+}

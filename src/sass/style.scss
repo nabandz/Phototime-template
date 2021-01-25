@@ -1,0 +1,14 @@
+@import 'base/variables';
+* {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.container {
+    min-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/menu';
