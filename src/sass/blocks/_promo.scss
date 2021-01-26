@@ -1,7 +1,7 @@
 .promo {
     max-height: 745px;
     padding: 40px 0 26px 0;
-    background: url(../img/home_bg.jpg) bottom (center/cover) no-repeat;
+	background: url(../img/home_bg.jpg) bottom (center/cover) no-repeat;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -22,15 +22,21 @@
         color: #ffffff;
     }
     &__social {
-        margin-top: 217px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 220px;
+		height: 23px;
         a {
-            text-decoration: none;
-        }
-        img {
-            margin: 0 5px;
-            &:hover {
-                background-color: #C37500;
-            }
-        }
+			text-decoration: none;
+		}
+		i {
+			margin: 0 8px;
+			font-size: 23px;
+			color: #ffffff;
+			transition: 0.5s all;
+			&:hover {
+				color: $main-color;
+			}
+		}
     }
 }

@@ -11,11 +11,14 @@
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
+
+    transition: 0.5s all;
     &:focus {
         outline: none;
     }
-    &:active {
-        background-image: linear-gradient(to top, $main-color 0%, #27bd8b 100%);
+    &:hover {
+        background:  #ffffff;
+        color:$main-color;
     }
     &_main {
         margin-top: 15px;
