@@ -1,30 +1,36 @@
 .promo {
-    min-height: 745px;
+    max-height: 745px;
     padding: 40px 0 26px 0;
-    background: url(../img/home_bg.jpg) center (center/cover) no-repeat;
-    &__wapper {
+    background: url(../img/home_bg.jpg) bottom (center/cover) no-repeat;
+    &__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    &__header { 
-        margin-top: 247px;
-        margin-bottom: 13px;
+    &__title { 
+        margin-top: 240px;
         font-size: 36px;
         font-weight: bold;
+        letter-spacing: 5.5px;
         text-transform: uppercase;
         color: #ffffff;
     }
-    &__subheader {
-        margin-bottom: 26px;
+    &__subtitle {
         font-size: 16px;
         font-weight: medium;
+        letter-spacing: 2.5px;
         color: #ffffff;
     }
     &__social {
-        margin-top: 222px;
+        margin-top: 217px;
+        a {
+            text-decoration: none;
+        }
         img {
-            margin-right: 16px;
+            margin: 0 5px;
+            &:hover {
+                background-color: #C37500;
+            }
         }
     }
 }

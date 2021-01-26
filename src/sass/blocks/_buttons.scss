@@ -7,6 +7,17 @@
 
     font-size: 12px;
     font-weight: bold;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
     color: #ffffff;
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        background-image: linear-gradient(to top, $main-color 0%, #27bd8b 100%);
+    }
+    &_main {
+        margin-top: 15px;
+    }
 }
