@@ -12,7 +12,7 @@
     text-align: center;
     color: #ffffff;
 
-    transition: 0.5s all;
+    transition: 0.4s all;
     &:focus {
         outline: none;
     }
@@ -22,5 +22,10 @@
     }
     &_main {
         margin-top: 15px;
+    }
+    &_rap {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 193px;
     }
 }

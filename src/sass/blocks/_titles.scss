@@ -1,0 +1,10 @@
+.title {
+    color: $main-color;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    &_rap {
+        margin-left: 64px;
+    }
+}

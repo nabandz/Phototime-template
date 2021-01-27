@@ -1,5 +1,5 @@
 .promo {
-    max-height: 745px;
+    min-height: 745px;
     padding: 40px 0 26px 0;
 	background: url(../img/home_bg.jpg) bottom (center/cover) no-repeat;
     &__wrapper {
@@ -33,7 +33,7 @@
 			margin: 0 8px;
 			font-size: 23px;
 			color: #ffffff;
-			transition: 0.5s all;
+			transition: 0.4s all;
 			&:hover {
 				color: $main-color;
 			}
