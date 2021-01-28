@@ -2,6 +2,9 @@
     &__element {
         margin-top: 24px;
         display: flex;
+        &:nth-child(1){
+            margin-left: 0px;
+        }
     }
     &__link {
         margin: 0 60px;
@@ -16,9 +19,12 @@
         &:hover {
             color: $main-color;
         }
+        &:nth-child(1){
+            margin-left: 0px;
+        }
     }
     &__item {
-        margin: 0 25px;
+        margin-left: 37px;
     }
     &__logo {
         display: block;

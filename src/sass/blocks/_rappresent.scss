@@ -4,17 +4,21 @@
     background-color: #f5f6f7;
     &__wrapper{
         display: flex;
-        align-items: center;
+        margin: 0 64px;
     }
     &__descr {
         display: flex;
         flex-direction: column;
+        min-width: 448px;
     }
     &__img {
-        width: 640px;
+        min-width: 640px;
+        position: relative;
         img {
-            margin: -38px 0px -411px -49px;
+            position: absolute;
             width: 100%;
+            top: -18px;
+            right: 65px;
         }
     }
 }
