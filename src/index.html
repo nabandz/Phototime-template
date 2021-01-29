@@ -11,18 +11,18 @@
     <link rel="shortcut icon" href="icons/icon.png" type="png">
 </head>
 <body>
-    <div class="home">
+    <div class="home" id="home">
         <div class="container">
             <header class="header">
                 <nav class="header__nav">
                     <ul class="header__menu">
-                        <li class="menu__element"><a href="#" class="menu__link">Home</a></li>
-                        <li class="menu__element"><a href="#" class="menu__link">photoapp</a></li>
-                        <a href="#" class="menu__item">
+                        <li class="menu__element"><a href="#home" class="menu__link">Home</a></li>
+                        <li class="menu__element"><a href="#rappresent" class="menu__link">photoapp</a></li>
+                        <a href="#home" class="menu__item">
                             <img class="menu__logo" src="/src/icons/home_logo.png" alt="logo">
                         </a>
-                        <li class="menu__element"><a href="#" class="menu__link">design</a></li>
-                        <li class="menu__element"><a href="#" class="menu__link">download</a></li>
+                        <li class="menu__element"><a href="#design" class="menu__link">design</a></li>
+                        <li class="menu__element"><a href="#download" class="menu__link">download</a></li>
                     </ul>
                 </nav>
             </header>
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <div class="rappresent">
+    <div class="rappresent" id="rappresent">
         <div class="container">
             <div class="rappresent__wrapper">
                 <div class="rappresent__content">
@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <div class="design">
+    <div class="design" id="design">
         <div class="container">
             <div class="design__wrapper">
                 <div class="design__img">
@@ -149,6 +149,31 @@
                     <i class="fas fa-check"></i>
                 </button>
             </form>
+        </div>
+    </div>
+
+    <div class="download" id="download">
+        <div class="container">
+            <h2 class="title title_sixth-screen">
+                Download it
+            </h2>
+            <h2 class="subtitle subtitle_sixth-screen">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </h2>
+            <div class="download__btn">
+                <button class="button button_sixth-screen button_sixth-screen-apple">
+                    apple store
+                    <div class="download__background">
+                        <img src="/src/icons/button/apple.svg" alt="">
+                    </div>
+                </button>
+                <button class="button button_sixth-screen button_sixth-screen-android">
+                    play store
+                    <div class="download__background">
+                        <img src="/src/icons/button/android.svg" alt="">
+                    </div>
+                </button>
+            </div>
         </div>
     </div>
 </body>

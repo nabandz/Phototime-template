@@ -1,0 +1,18 @@
+.download {
+    min-height: 396px;
+    padding: 87px 0 116px 0;
+    background-color: #f5f6f7;
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 42px;
+    }
+    &__background {
+        display: flex;
+        align-items: center;
+        height: 56px;
+        width: 56px;
+        border-radius: 0 5px 5px 0;
+        background-color: $main-color;
+    }
+}

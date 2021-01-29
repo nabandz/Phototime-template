@@ -47,4 +47,21 @@
             font-size: 19px;
         }
     }
+    &_sixth-screen {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 13px;
+        height: 56px;
+        width: 296px;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 24px;
+        background: #1abc9c;
+        img {
+            width: 22px;
+            height: 27px;
+            margin-left: 17px;
+        }
+    }
 }
