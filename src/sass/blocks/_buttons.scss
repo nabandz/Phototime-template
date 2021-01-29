@@ -17,16 +17,20 @@
     &:focus {
         outline: none;
     }
-    &:hover {
+    &:hover:not(.button_home-screen) {
         background:  #ffffff;
         color:$main-color;
         border: 2px solid $main-color;
     }
-    &_main {
+    &_home-screen {
         margin-top: 26px;
     }
-    &_rap {
+    &_second-screen {
         margin-top: 41px;
         width: 193px;
+    }
+    &_third-screen {
+        margin-top: 39px;
+        width: 192px;
     }
 }

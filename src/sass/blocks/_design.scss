@@ -1,5 +1,36 @@
 .design {
     position: relative;
+    padding-top: 143px;
     min-height: 560px;
     background-color: #ffffff;
+    &__img {
+        text-align: center;
+        margin: 3px 0 0 59px;
+        img {
+            width: 100%;
+            height: auto;
+            min-width: 314px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 328px;
+    }
+    &__count {
+        margin: 0;
+        margin-top: 45px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        color: #373737;
+    }
+    &__angle {
+        &_right {
+            margin-left: 18px;
+        }
+    }
 }

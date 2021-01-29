@@ -6,9 +6,13 @@
     line-height: 24px;
     font-weight: book;
     letter-spacing: 1.8px;
-    &_rap {
+    &_second-screen {
         span {
             font-weight: bold;
         }
+    }
+    &_third-screen {
+        margin: 33px 0 0 3px;
+        line-height: 22px;
     }
 }
