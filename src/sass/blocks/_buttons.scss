@@ -17,20 +17,34 @@
     &:focus {
         outline: none;
     }
-    &:hover:not(.button_home-screen) {
-        background:  #ffffff;
-        color:$main-color;
-        border: 2px solid $main-color;
-    }
     &_home-screen {
         margin-top: 26px;
     }
     &_second-screen {
         margin-top: 41px;
         width: 193px;
+        &:hover {
+            background:  #ffffff;
+            color:$main-color;
+            border: 2px solid $main-color;
+        }
     }
     &_third-screen {
         margin-top: 39px;
         width: 192px;
+        &:hover {
+            background:  #ffffff;
+            color:$main-color;
+            border: 2px solid $main-color;
+        }
+    }
+    &_fifth-screen {
+        width: 63px;
+        height: 60px;
+        border-radius: 0 5px 5px 0;
+        i {
+            margin-top: 3px;
+            font-size: 19px;
+        }
     }
 }
