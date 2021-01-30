@@ -1,0 +1,40 @@
+.footer {
+    min-height: 130px;
+    padding: 46px 0 36px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 64px;
+    }
+    &__links {
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #373737;
+            letter-spacing: 1.2px;
+            text-decoration: none;
+            border-right: 2px solid $main-color;
+            padding: 0 10px 0 10px;
+            transition: 0.4s all;
+            &:hover {
+				color: $main-color;
+			}
+            &:first-child{
+                padding-left: 0px;
+            }
+            &:last-child{
+                border-right: none;
+            }
+        }
+    }
+    &__copyright {
+        margin-top: 15px;
+        h2 {
+            font-size: 14px;
+            font-weight: bold;
+            color: #373737;
+            letter-spacing: 2px;
+        }
+    }
+}
