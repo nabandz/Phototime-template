@@ -64,4 +64,10 @@
             margin-left: 17px;
         }
     }
+    &_prev, &_next {
+        width: 25px;
+        height: 25px;
+        background-color: #f5f6f7;
+        margin-right: -7px;
+    }
 }

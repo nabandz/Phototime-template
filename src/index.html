@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="icons/icon.png" type="png">
     <script src="https://kit.fontawesome.com/9e0dda9d70.js" crossorigin="anonymous"></script>
     <title>PhotoTime</title>
-    <link rel="shortcut icon" href="icons/icon.png" type="png">
 </head>
 <body>
-    <div class="home" id="home">
+    <section class="home" id="home">
         <div class="container">
             <header class="header">
                 <nav class="header__nav">
@@ -52,9 +53,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="rappresent" id="rappresent">
+    <section class="rappresent" id="rappresent">
         <div class="container">
             <div class="rappresent__wrapper">
                 <div class="rappresent__content">
@@ -78,9 +79,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="design" id="design">
+    <section class="design" id="design">
         <div class="container">
             <div class="design__wrapper">
                 <div class="design__img">
@@ -110,9 +111,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="community">
+    <section class="community">
         <div class="container">
             <div class="community__wrapper">
                 <div class="community__content">
@@ -124,21 +125,32 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     </h2>
                 </div>
-                <div class="community__img">
+                <div class="community__carousel">
                     <div class="community__angle">
-                        <img class="community__angle_left" src="/src/icons/angle_left.svg" alt="angle_left">
-                        <img class="community__angle_right" src="/src/icons/angle_right.svg" alt="angle_right">
+                        <button class="button button_prev">
+                            <img class="community__angle_left" src="/src/icons/angle_left.svg" alt="angle_left">
+                        </button>
+                        <button class="button button_next">
+                            <img class="community__angle_right" src="/src/icons/angle_right.svg" alt="angle_right">
+                        </button>
                     </div>
-                    <div class="community__slide">
-                        <img class="community__slide-img" src="/src/img/fourth_slide_1.jpg" alt="slide_1">
-                        <img class="community__slide-img" src="/src/img/fourth_slide_2.jpg" alt="slide_2">
+                    <div class="community__img">
+                        <div>
+                            <img class="community__slide-img" src="/src/img/fourth_slide_1.jpg" alt="slide_1">
+                        </div>
+                        <div>
+                            <img class="community__slide-img" src="/src/img/fourth_slide_2.jpg" alt="slide_2">
+                        </div>
+                        <div>
+                            <img class="community__slide-img" src="/src/img/fourth_slide_3.jpg" alt="slide_3">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="subscribe">
+    <section class="subscribe">
         <div class="container">
             <h2 class="title title_fifth-screen">
                 subscribe to us community
@@ -150,9 +162,9 @@
                 </button>
             </form>
         </div>
-    </div>
+    </section>
 
-    <div class="download" id="download">
+    <section class="download" id="download">
         <div class="container">
             <h2 class="title title_sixth-screen">
                 Download it
@@ -175,7 +187,7 @@
                 </button>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="footer">
         <div class="container">
@@ -198,5 +210,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="/src/js/script.js"></script>
+
 </body>
 </html>

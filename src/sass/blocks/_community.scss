@@ -8,7 +8,7 @@
     }
     &__content {
         display: flex;
-        max-width: 182px;
+        min-width: 178px;
         flex-direction: column;
     }
     &__logo {
@@ -17,8 +17,8 @@
         width: 59px;
         margin: 68px 0px 0px 58px;
     }
-    &__img {
-        margin-left: 74px;
+    &__carousel {
+        margin-left: 80px;
         display: flex;
         flex-direction: column;
         min-width: 765px;
@@ -30,9 +30,5 @@
         &_left {
             margin-right: 10px;
         }
-    }
-    &__slide {
-        display: flex;
-        justify-content: space-between;
     }
 }
