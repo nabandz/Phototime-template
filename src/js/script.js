@@ -1,5 +1,5 @@
 
-const slider = tns({
+const slider_community = tns({
     container: '.community__img',
     items: 2,
     slideBy: 1,
@@ -18,7 +18,7 @@ document.querySelector('.button_community-next').addEventListener ('click', func
     slider.goTo('next');
 });
 
-const slr = tns({
+const slider_design = tns({
     container: '.design__carousel',
     items: 1,
     slideBy: 1,
