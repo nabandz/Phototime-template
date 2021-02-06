@@ -3,7 +3,7 @@
     src: local('GothamRounded-Bold'),
         url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
         url('../fonts/GothamRounded-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -12,7 +12,7 @@
     src: local('GothamRounded-Book'),
         url('../fonts/GothamRounded-Book.woff2') format('woff2'),
         url('../fonts/GothamRounded-Book.woff') format('woff');
-    font-weight: book;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -21,6 +21,6 @@
     src: local('Gotham Rounded-Medium'),
         url('../fonts/Gotham Rounded-Medium.woff2') format('woff2'),
         url('../fonts/Gotham Rounded-Medium.woff') format('woff');
-    font-weight: medium;
+    font-weight: 500;
     font-style: normal;
 }
