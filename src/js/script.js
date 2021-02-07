@@ -11,11 +11,11 @@ const slider_community = tns({
 });
 
 document.querySelector('.button_community-prev').addEventListener ('click', function () {
-    slider.goTo('prev');
+    slider_community.goTo('prev');
 });
 
 document.querySelector('.button_community-next').addEventListener ('click', function () {
-    slider.goTo('next');
+    slider_community.goTo('next');
 });
 
 const slider_design = tns({
@@ -29,9 +29,9 @@ const slider_design = tns({
 });
 
 document.querySelector('.button_design-prev').addEventListener ('click', function () {
-    slr.goTo('prev');
+    slider_design.goTo('prev');
 });
 
 document.querySelector('.button_design-next').addEventListener ('click', function () {
-    slr.goTo('next');
+    slider_design.goTo('next');
 });
