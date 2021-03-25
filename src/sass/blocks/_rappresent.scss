@@ -4,15 +4,18 @@
     background-color: $bg-color;
     &__wrapper{
         display: flex;
+        flex-wrap: wrap;
         margin: 0 64px;
     }
     &__content {
         display: flex;
         flex-direction: column;
-        min-width: 448px;
+       /*  min-width: 448px; */
+        min-width: 50%;
     }
     &__img {
         text-align: center;
+        width: 50%;
         img {
             width: 100%;
             height: auto;
